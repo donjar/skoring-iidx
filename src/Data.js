@@ -1,9 +1,3 @@
-function textageLinkMaker(version, id, difficulty, level) {
-  difficulty = difficulties[difficulty][0];
-  level = level.toString(16).toUpperCase();
-  return `http://textage.cc/score/${version}/${id}.html?1${difficulty}${level}00`;
-}
-
 export const dans = ['七級', '六級', '五級', '四級', '三級', '二級', '一級',
                      '初段', '二段', '三段', '四段', '五段', '六段', '七段',
                      '八段', '九段', '十段', '中伝', '皆伝'];
@@ -13,6 +7,9 @@ export const difficulties = ['Normal', 'Hyper', 'Another'];
 export const contests = [
   {
     name: 'THE',
+    period: 'Juni 2018',
+    subtitle: 'Lagu-lagu yang dimulai dengan "The"',
+    submit: 'kirim foto hasil, dengan tanda jempol',
     songs: [
       {
         song: 'The Hope of Tomorrow',
@@ -106,7 +103,12 @@ export const results = [
       {
         name: 'SHIYOU',
         dan: 18,
-        results: [1234, 2345, 3456, 4567]
+        results: [1234, 2345, 3456, 1000]
+      },
+      {
+        name: 'XUOU',
+        dan: 18,
+        results: [1123, 2310, 2898, 888]
       },
       {
         name: 'DONJAR',

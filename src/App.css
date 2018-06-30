@@ -1,28 +1,27 @@
-.App {
+.ContestSummary-title {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.table-first-column-special tr th:first-child {
+  text-align: right;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.table-first-column-special tr td:first-child {
+  text-align: right;
 }
 
-.App-title {
-  font-size: 1.5em;
+.table-first-column-special tr th:not(:first-child) {
+  text-align: center;
 }
 
-.App-intro {
-  font-size: large;
+.table-first-column-special tr td:not(:first-child) {
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.small-score {
+  flex: 2;
+}
+
+.small-score-narrow {
+  flex: 1;
 }

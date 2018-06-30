@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
 import ContestSummary from './ContestSummary';
-import ContestData from './ContestData';
+import ContestView from './ContestView';
 
 class App extends Component {
   render() {
     return (
-      <div class="App">
+      <div className="App container">
+        <div className="jumbotron">
+          <h1 className="display-4">Skoring Beatmania IIDX Indonesia!</h1>
+        </div>
         <ContestSummary contestId={0} />
-        {[0, 1, 2].map(d => <ContestData contestId={0} difficulty={d} />)}
+        <ContestView contestId={0} />
       </div>
     );
   }
