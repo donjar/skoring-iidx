@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { contests, dans, difficulties, results } from './Data';
+import { contests, dans, results } from './Data';
 
 function calculateBpi(scores, maxScore) {
   const max = Math.max(...scores);

@@ -7,7 +7,7 @@ export const difficulties = ['Normal', 'Hyper', 'Another'];
 export const contests = [
   {
     name: 'THE',
-    period: 'Juni 2018',
+    period: '30 Juni 2018 - 31 Juli 2018',
     subtitle: 'Lagu-lagu yang dimulai dengan "The"',
     submit: 'kirim foto hasil, dengan tanda jempol',
     songs: [
@@ -94,27 +94,10 @@ export const contests = [
 export const results = [
   [
     [
-
     ],
     [
-
     ],
     [
-      {
-        name: 'SHIYOU',
-        dan: 18,
-        results: [1234, 2345, 3456, 1000]
-      },
-      {
-        name: 'XUOU',
-        dan: 18,
-        results: [1123, 2310, 2898, 888]
-      },
-      {
-        name: 'DONJAR',
-        dan: 18,
-        results: [234, 345, 456, 567]
-      },
     ]
   ],
 ];
