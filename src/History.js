@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class History extends Component {
   render() {
     return (
-      <h2>Hi</h2>
+      <h1>History</h1>
     );
   }
 }
