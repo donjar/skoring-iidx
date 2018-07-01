@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { contests, difficulties } from './Data';
+import { contests, difficulties, versions } from './Data';
 
 function textageLinkMaker(version, id, difficulty, level) {
   difficulty = difficulties[difficulty][0];
@@ -33,7 +33,7 @@ class ContestSummary extends Component {
               contest.songs.map(function(obj, i) {
                 return (
                   <tr key={i}>
-                    <td>{obj.song}</td>
+                    <td>{obj.song}<br /><small>{versions[obj.version]}</small></td>
                     {obj.charts.map(function(c, idx) {
                       return (
                         <td key={idx}>
