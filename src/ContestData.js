@@ -59,9 +59,9 @@ class ContestData extends Component {
                   <td key={i}>
                     {score[0].toFixed(2)}<br />
                     <small className="d-flex">
-                      <div class="small-score">{score[1]}</div>
-                      <div class="small-score-narrow">{score[2]}</div>
-                      <div class="small-score">{score[3]}</div>
+                      <div className="small-score">{score[1]}</div>
+                      <div className="small-score-narrow">{score[2]}</div>
+                      <div className="small-score">{score[3]}</div>
                     </small>
                   </td>
                 );

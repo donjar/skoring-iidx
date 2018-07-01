@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
+import { Route, BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-import ContestSummary from './ContestSummary';
-import ContestView from './ContestView';
+import AppNav from './AppNav';
+import Home from './Home';
+import History from './History';
+import About from './About';
 
 class App extends Component {
   render() {
     return (
-      <div className="App container">
-        <div className="jumbotron">
-          <h1 className="display-4">Skoring Beatmania IIDX Indonesia!</h1>
+      <Router>
+        <div className="App container">
+          <AppNav />
+          <Route path="/" component={Home} exact />
+          <Route path="/history" component={History} exact />
+          <Route path="/about" component={About} exact />
         </div>
-        <ContestSummary contestId={0} />
-        <ContestView contestId={0} />
-      </div>
+      </Router>
     );
   }
 }
