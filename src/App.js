@@ -12,9 +12,9 @@ class App extends Component {
       <Router>
         <div className="App container">
           <AppNav />
-          <Route path="/" component={Home} exact />
-          <Route path="/history" component={History} exact />
-          <Route path="/about" component={About} exact />
+          <Route path="/skoring-iidx" component={Home} exact />
+          <Route path="/skoring-iidx/history" component={History} exact />
+          <Route path="/skoring-iidx/about" component={About} exact />
         </div>
       </Router>
     );
