@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { contests, dans, results } from './Data';
 
 function calculateBpi(scores, maxScore) {
+  if (scores.length === 1) {
+    return [100];
+  }
+
   const max = Math.max(...scores);
   const min = Math.min(...scores);
 
