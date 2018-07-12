@@ -109,6 +109,11 @@ export const results = [
       },
     ],
     [
+      {
+        name: 'JESTER',
+        dan: 16,
+        results: [1392, 1730, 1938, 904]
+      },
     ],
     [
       // {
