@@ -110,31 +110,26 @@ export const results = [
     ],
     [
       {
+        name: 'FXROND',
+        dan: 15,
+        results: [1307, 1758, 2043, 1090]
+      },
+      {
         name: 'JESTER',
         dan: 16,
         results: [1392, 1730, 1938, 904]
       },
     ],
     [
-      // {
-      //   name: 'SHIYOU',
-      //   dan: 18,
-      //   results: [2, 3, 4, 5]
-      // },
-      // {
-      //   name: 'DONJAR',
-      //   dan: 12,
-      //   results: [1, 2, 3, 4]
-      // },
+      {
+        name: 'KEMU',
+        dan: 16,
+        results: [1631, 2184, 2763, 1498]
+      },
       {
         name: 'MARU.0',
         dan: 18,
         results: [1564, 2394, 2750, 1676]
-      },
-      {
-        name: 'KEMU',
-        dan: 16,
-        results: [1540, 2184, 2716, 1498]
       },
     ]
   ],
