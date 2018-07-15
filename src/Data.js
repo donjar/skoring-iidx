@@ -122,14 +122,19 @@ export const results = [
     ],
     [
       {
-        name: 'KEMU',
-        dan: 16,
-        results: [1631, 2184, 2763, 1498]
+        name: 'DONJAR',
+        dan: 19,
+        results: [1640, 2535, 2977, 1613]
       },
       {
         name: 'MARU.0',
         dan: 18,
         results: [1564, 2394, 2750, 1676]
+      },
+      {
+        name: 'KEMU',
+        dan: 16,
+        results: [1631, 2184, 2763, 1498]
       },
     ]
   ],
