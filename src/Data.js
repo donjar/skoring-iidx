@@ -105,7 +105,7 @@ export const results = [
       {
         name: 'XK2238',
         dan: 0,
-        results: [802, 667, 1229, 517]
+        results: [883, 771, 1297, 563]
       },
     ],
     [
@@ -135,6 +135,11 @@ export const results = [
         name: 'KEMU',
         dan: 16,
         results: [1631, 2184, 2763, 1498]
+      },
+      {
+        name: 'EPHANN',
+        dan: 15,
+        results: [1461, 1929, 2222, 1292]
       },
     ]
   ],
