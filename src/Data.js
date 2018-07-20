@@ -138,7 +138,7 @@ export const results = [
       },
       {
         name: 'EPHANN',
-        dan: 15,
+        dan: 16,
         results: [1461, 1929, 2222, 1292]
       },
     ]
