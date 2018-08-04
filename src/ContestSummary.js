@@ -4,6 +4,11 @@ import { contests, difficulties, versions } from './Data';
 function textageLinkMaker(version, id, difficulty, level) {
   difficulty = difficulties[difficulty][0];
   level = level.toString(16).toUpperCase();
+  if (version === 0) {
+    version = 1;
+  } else if (version === 1) {
+    version = 's';
+  }
   return `http://textage.cc/score/${version}/${id}.html?1${difficulty}${level}00`;
 }
 
