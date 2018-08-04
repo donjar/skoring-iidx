@@ -9,8 +9,8 @@ class Home extends Component {
         <div className="jumbotron">
           <h1 className="display-4">Skoring Beatmania IIDX Indonesia!</h1>
         </div>
-        <ContestSummary contestId={0} />
-        <ContestView contestId={0} />
+        <ContestSummary contestId={1} />
+        <ContestView contestId={1} />
       </Fragment>
     );
   }

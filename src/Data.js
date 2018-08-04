@@ -97,6 +97,90 @@ export const contests = [
       },
     ],
   },
+  {
+    name: 'The Solar System',
+    period: '4 Aug 2018 - 31 Aug 2018',
+    subtitle: 'Lagu-lagu yang berhubungan dengan tata surya',
+    submit: 'kirim foto hasil, dengan tanda dua jari',
+    songs: [
+      {
+        song: 'rottel-the-Mercury',
+        version: 9,
+        textageID: 'rot_merc',
+        charts: [
+          {
+            level: 6,
+            notes: 503
+          },
+          {
+            level: 9,
+            notes: 963
+          },
+          {
+            level: 10,
+            notes: 1137
+          }
+        ]
+      },
+      {
+        song: 'THE EARTH LIGHT',
+        version: 1,
+        textageID: 'theearth',
+        charts: [
+          {
+            level: 4,
+            notes: 398,
+          },
+          {
+            level: 7,
+            notes: 530,
+          },
+          {
+            level: 8,
+            notes: 581,
+          }
+        ]
+      },
+      {
+        song: 'TYPE MARS(G-Style Mix)',
+        version: 13,
+        textageID: 'typemars',
+        charts: [
+          {
+            level: 5,
+            notes: 571
+          },
+          {
+            level: 9,
+            notes: 974
+          },
+          {
+            level: 11,
+            notes: 1237
+          }
+        ]
+      },
+      {
+        song: 'Saturn',
+        version: 20,
+        textageID: 'saturn',
+        charts: [
+          {
+            level: 7,
+            notes: 693
+          },
+          {
+            level: 10,
+            notes: 1040
+          },
+          {
+            level: 11,
+            notes: 1332
+          }
+        ]
+      },
+    ],
+  },
 ];
 
 export const results = [
@@ -141,6 +225,14 @@ export const results = [
         dan: 16,
         results: [1463, 1898, 2165, 1297]
       },
+    ]
+  ],
+  [
+    [
+    ],
+    [
+    ],
+    [
     ]
   ],
 ];
